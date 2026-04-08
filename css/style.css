@@ -36,32 +36,27 @@ a:focus {
 }
 
 /* 共通部分 */
-.wrapper {
+.l-wrapper {
   max-width: 1040px;
   margin: 0 auto;
   padding: 0 20px;
 }
-.section {
+.c-section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.section-title {
+.c-section-title {
   font-family: var(--font-family-heading);
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 1.5;
 }
-.section-text {
-  font-size: 0.9375rem;
-  line-height: 1.8;
-  text-align: justify;
-}
 @media screen and (min-width: 768px) {
-  .concept {
+  .c-section {
     padding-top: 130px;
     padding-bottom: 130px;
   }
-  .section-title {
+  .c-section-title {
     font-size: 1.875rem;
   }
 }
@@ -103,8 +98,11 @@ a:focus {
 .concept__content {
   margin-top: 30px;
 }
-.concept__content .section-text {
+.concept__text {
   margin-top: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  text-align: justify;
 }
 @media screen and (min-width: 768px) {
   .concept {
@@ -145,19 +143,19 @@ a:focus {
   gap: 20px;
   margin-top: 30px;
 }
-  .new-products__item--1 {
-    position: relative;
-    max-width: 350px;
-    margin: 0 auto;
-  }
-  .new-products__item--2 {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  .new-products__item--3 {
-    max-width: 480px;
-    margin: 0 auto;
-  }
+.new-products__item--1 {
+  position: relative;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.new-products__item--2 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.new-products__item--3 {
+  max-width: 480px;
+  margin: 0 auto;
+}
 .new-products__badge {
   position: absolute;
   top: -13px;
@@ -218,8 +216,11 @@ a:focus {
   padding-right: 20px;
   padding-left: 20px;
 }
-.new-type__content .section-text {
+.new-type__text {
   margin-top: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  text-align: justify;
 }
 .new-type__image {
   margin-top: 30px;
