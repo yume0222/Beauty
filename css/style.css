@@ -112,7 +112,8 @@ a:focus {
 .l-wrapper {
   max-width: 1040px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /*----------------------------------------
