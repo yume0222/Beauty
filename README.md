@@ -7,7 +7,7 @@ CSSのpositionプロパティや要素の重なりの理解を深めるため制
 ---
 
 ## 使用技術
-HTML, CSS
+HTML / CSS
 
 ---
 
